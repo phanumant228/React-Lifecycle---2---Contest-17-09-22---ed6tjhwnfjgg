@@ -24,7 +24,6 @@ class App extends React.Component {
       <div id="main">
           <div id="count">{this.state.count}</div>
           <button id="incr" onClick={this.handleClick}>Increment</button>
-          console.log("moumted")
       </div>
     )
   }
